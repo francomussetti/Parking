@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* Estilos básicos para la página */
-body {
-    margin: 0;
-    font-family: 'Nunito', sans-serif; /* Utiliza la fuente importada */
-    color: #333;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+h1{
+    font-size: 40px;
+    color: rgb(255, 238, 0)
 }
+body {font-family: "Nunito", sans-serif;}
 
-/* Estilo del header */
 header {
     background-color: #444;
     color: #fff;
@@ -17,106 +13,21 @@ header {
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.header-content img {
-    max-width: 100%; /* Ajusta la imagen para que no exceda el contenedor */
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Estilos del footer */
 footer {
-    background-color: #444;
-    color: #fff;
-    padding: 20px 10px;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px; /* Espacio entre elementos */
-}
-
-.footer-info {
-    flex: 2;
-    text-align: left;
-}
-
-.footer-info h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #f1c40f; /* Amarillo dorado */
-}
-
-.footer-info p {
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.footer-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-info ul li {
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-.footer-links {
-    flex: 1;
+    background-color: #58534f;
+    color: #ffffff;
+    padding: 24px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
     text-align: center;
 }
+nav a {
+    text-decoration:none;
+    color:white
 
-.footer-links a {
-    display: inline-block;
-    color: #f7f30a; /* Amarillo dorado */
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px;
-    transition: color 0.3s, text-shadow 0.3s;
+
 }
-
-.footer-links a:hover {
-    color: #fff;
-    text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
-}
-
-/* Media Queries para ajustar el diseño en dispositivos móviles */
-@media (max-width: 768px) {
-    .footer-info h1 {
-        font-size: 20px;
-    }
-    
-    .footer-info p, .footer-info ul li {
-        font-size: 14px;
-    }
-    
-    .footer-links a {
-        font-size: 14px;
-        margin: 8px; /* Ajuste de margen para pantallas más pequeñas */
-    }
-}
-
-@media (max-width: 480px) {
-    .footer-info h1 {
-        font-size: 18px;
-    }
-    
-    .footer-info p, .footer-info ul li {
-        font-size: 12px;
-    }
-    
-    .footer-links a {
-        font-size: 12px;
-        margin: 6px; /* Ajuste de margen para pantallas muy pequeñas */
-    }
+nav a:hover{
+  color: rgb(255, 238, 0) ;
 }
